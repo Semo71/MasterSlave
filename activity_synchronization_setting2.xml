@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:id="@+id/mainLL"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Synchronization Page"
+        android:textColor="#ffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="5dp"
+        android:paddingHorizontal="20dp"
+        android:text="Welcome to Signage Screens Solution, please follow the below instructions in order to synchronize all your screens:"
+        android:textColor="#ffff"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/masterBtn"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="10dp"
+        android:text="Master"
+        android:textColor="#ffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/slaveBtn"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="10dp"
+        android:text="Slave"
+        android:textColor="#ffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/feedbackText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Status"
+        android:textColor="#ffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/sendBtn"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="10dp"
+        android:text="Send"
+        android:textColor="#ffff"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
